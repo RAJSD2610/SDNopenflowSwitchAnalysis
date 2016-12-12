@@ -21,9 +21,7 @@ while i<(num_files/2) :
 #       a+=[]
         y=len(df[i].index)-1   #1 row added by default so that table has a entry
         if y>0:
-            y-=1               ##1 row added by default so that table has column entry
-        if i==0:
-            y-=1               #due to 7,8 at i=0
+            y-=2              ##1 row added by default so that table has column entry due to 7,8 at i=0
     except:
         y=0
         
