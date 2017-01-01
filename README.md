@@ -1,7 +1,7 @@
 # SDNopenflowSwitchAnalysis
 install mininet library in your linux system
 
-1.unzip ece671.zip
+1.Download ece671
 
 2.paste proj_controller_ece671_switch.py in pox 
 
