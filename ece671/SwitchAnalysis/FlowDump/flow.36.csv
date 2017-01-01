@@ -1,0 +1,6 @@
+2016-12-15 00:23:39-05:00
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=4.29s, table=0, n_packets=1, n_bytes=42, hard_timeout=15, idle_age=4, priority=65535,arp,in_port=2,vlan_tci=0x0000,dl_src=52:91:a5:92:cf:14,dl_dst=d6:e2:59:07:48:d6,arp_spa=10.0.0.2,arp_tpa=10.0.0.1,arp_op=2 actions=output:1
+ cookie=0x0, duration=4.326s, table=0, n_packets=1, n_bytes=42, hard_timeout=15, idle_age=4, priority=65535,arp,in_port=1,vlan_tci=0x0000,dl_src=d6:e2:59:07:48:d6,dl_dst=52:91:a5:92:cf:14,arp_spa=10.0.0.1,arp_tpa=10.0.0.2,arp_op=1 actions=output:2
+ cookie=0x0, duration=13.119s, table=0, n_packets=344461, n_bytes=22739954, hard_timeout=15, idle_age=0, priority=65535,tcp,in_port=1,vlan_tci=0x0000,dl_src=d6:e2:59:07:48:d6,dl_dst=52:91:a5:92:cf:14,nw_src=10.0.0.1,nw_dst=10.0.0.2,nw_tos=0,tp_src=5001,tp_dst=35506 actions=output:2
+ cookie=0x0, duration=13.937s, table=0, n_packets=494250, n_bytes=10899501212, hard_timeout=15, idle_age=0, priority=65535,tcp,in_port=2,vlan_tci=0x0000,dl_src=52:91:a5:92:cf:14,dl_dst=d6:e2:59:07:48:d6,nw_src=10.0.0.2,nw_dst=10.0.0.1,nw_tos=0,tp_src=35506,tp_dst=5001 actions=output:1

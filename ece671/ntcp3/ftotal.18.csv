@@ -1,0 +1,6 @@
+0a1,4
+2016-12-14 23:09:50-05:00
+cookie,table,n_packet,n_bytes,priority,,,,,,,,,,,,
+0x0,0,12446,821448, hard_timeout=3,65535,tcp,in_port=1,vlan_tci=0x0000,dl_rc=d6:e2:59:07:48:d6,dl_dst=52:91:a5:92:cf:14,nw_src=10.0.0.1,nw_dst=10.0.0.2,nw_tos=0,tp_src=5001,tp_dst=34646 actions=output:2
+0x0,0,14111,305218638, hard_timeout=3,65535,tcp,in_port=2,vlan_tci=0x0000,dl_rc=52:91:a5:92:cf:14,dl_dst=d6:e2:59:07:48:d6,nw_src=10.0.0.2,nw_dst=10.0.0.1,nw_tos=0,tp_src=34646,tp_dst=5001 actions=output:1
+0x0,0,1,42,65535,arp,,,in_port=1,vlan_tci=0x0000,dl_rc=5e:cf:a4:58:20:1a,dl_dst=26:d4:b7:0f:b0:21,arp_spa=10.0.0.1,arp_tpa=10.0.0.2,arp_op=2 actions=output:2

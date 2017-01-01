@@ -1,0 +1,63 @@
+1.T=3
+1.1 iperf tcp:(fpersec y<3:y=0)
+TCP window size:85.3 KBytes
+Time 51sec
+Transfer 13GB 
+Bandwidth 2.24 Gbits/sec
+
+1.2 iperf udp:(fpersec y<=1:y=0)
+UDP buffer size 208 KBytes
+Time 51 Sec 
+Transfer 8.33 MBytes
+Bandwidth 1.05 Mbits/sec
+Jitter 0.117 ms
+Lost/Datagrams 30/5940
+30 datagrams recieved out of order
+
+2. T=10
+2.1 iperf tcp:(fpersec y<3:y=0)
+TCP window size:85.3 KBytes
+Time 51sec
+Transfer 42GB 
+Bandwidth 4.68 Gbits/sec
+2.2 iperf udp:(fpersec y<=1:y=0)
+UDP buffer size 208 KBytes
+Time 51 Sec 
+Transfer 8.27 MBytes
+Bandwidth 1.05 Mbits/sec
+Jitter 0.031 ms
+Lost/Datagrams 27/5902
+27 datagrams recieved out of order
+
+3. T=8
+3.1 iperf tcp:(fpersec y<3:y=0)
+TCP window size:85.3 KBytes
+Time 51sec
+Transfer 31.6GB 
+Bandwidth 3.36 Gbits/sec
+3.2 iperf udp:(fpersec y<=1:y=0)
+UDP buffer size 208 KBytes
+Time 51 Sec 
+Transfer 7.92 MBytes
+Bandwidth 1.05 Mbits/sec
+Jitter 0.138 ms
+Lost/Datagrams 12/5650
+12 datagrams recieved out of order
+
+4. T=15
+4.1 iperf tcp:(fpersec y<3:y=0)
+TCP window size:85.3 KBytes
+Time 51sec
+Transfer 46.9 GB 
+Bandwidth 5.43 Gbits/sec
+4.2 iperf udp:(fpersec y<=1:y=0)
+UDP buffer size 208 KBytes
+Time 51 Sec 
+Transfer 8.24 MBytes
+Bandwidth 1.05 Mbits/sec
+Jitter 0.021 ms
+Lost/Datagrams 4/5881
+4 datagrams recieved out of order
+
+
+Take sum avg freq freqof0 in fpersec

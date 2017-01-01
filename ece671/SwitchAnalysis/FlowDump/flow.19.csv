@@ -1,0 +1,4 @@
+2016-12-15 00:23:39-05:00
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=5.629s, table=0, n_packets=130118, n_bytes=8589044, hard_timeout=15, idle_age=1, priority=65535,tcp,in_port=1,vlan_tci=0x0000,dl_src=d6:e2:59:07:48:d6,dl_dst=52:91:a5:92:cf:14,nw_src=10.0.0.1,nw_dst=10.0.0.2,nw_tos=0,tp_src=5001,tp_dst=35506 actions=output:2
+ cookie=0x0, duration=9.151s, table=0, n_packets=204634, n_bytes=4450924844, hard_timeout=15, idle_age=0, priority=65535,tcp,in_port=2,vlan_tci=0x0000,dl_src=52:91:a5:92:cf:14,dl_dst=d6:e2:59:07:48:d6,nw_src=10.0.0.2,nw_dst=10.0.0.1,nw_tos=0,tp_src=35506,tp_dst=5001 actions=output:1
